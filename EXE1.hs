@@ -12,4 +12,4 @@ media x y z = (x+y+z)/3
 
 -- valor de Quilowatt a ser pago
 valQuilowatt :: Fractional a => a -> a -> a
-valQuilowatt sal quil = (quil * (sal/5)) * 0.15
+valQuilowatt sal quil = (quil * (sal/5)) * 0.85
